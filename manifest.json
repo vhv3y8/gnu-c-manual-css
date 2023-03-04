@@ -5,7 +5,8 @@
   "content_scripts": [
     {
       "matches": [
-        "https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html"
+        "https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html",
+        "https://gcc.gnu.org/onlinedocs/cpp/*"
       ],
       "css": [
         "style.css"
